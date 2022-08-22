@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.Safari.extension</string>
+		<key>NSExtensionPrincipalClass</key>
+		<string>$(PRODUCT_MODULE_NAME).SafariExtensionHandler</string>
+		<key>SFSafariToolbarItem</key>
+		<dict>
+			<key>Action</key>
+			<string>Popover</string>
+			<key>Identifier</key>
+			<string>Button</string>
+			<key>Image</key>
+			<string>YouIcon.png</string>
+			<key>Label</key>
+			<string>Your Button</string>
+		</dict>
+		<key>SFSafariWebsiteAccess</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>www.google.com</string>
+			</array>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>NSHumanReadableDescription</key>
+	<string>You.com is an ad-free, privacy-focused, customized search engine. This extension offers replacing Google Search with You Search from Safari&apos;s address bar. You can still use Google search with our Bang (!g) feature.</string>
+</dict>
+</plist>

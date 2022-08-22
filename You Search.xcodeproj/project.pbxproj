@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		061E265D28B25AE1003A4F45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061E265C28B25AE1003A4F45 /* AppDelegate.swift */; };
+		061E266128B25AE1003A4F45 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 061E265F28B25AE1003A4F45 /* Main.html */; };
+		061E266328B25AE1003A4F45 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 061E266228B25AE1003A4F45 /* Icon.png */; };
+		061E266528B25AE1003A4F45 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 061E266428B25AE1003A4F45 /* Style.css */; };
+		061E266728B25AE1003A4F45 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 061E266628B25AE1003A4F45 /* Script.js */; };
+		061E266928B25AE1003A4F45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061E266828B25AE1003A4F45 /* ViewController.swift */; };
+		061E266C28B25AE1003A4F45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 061E266A28B25AE1003A4F45 /* Main.storyboard */; };
+		061E266E28B25AE2003A4F45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 061E266D28B25AE2003A4F45 /* Assets.xcassets */; };
+		061E267A28B25AE2003A4F45 /* You_SearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061E267928B25AE2003A4F45 /* You_SearchTests.swift */; };
+		061E268428B25AE2003A4F45 /* You_SearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061E268328B25AE2003A4F45 /* You_SearchUITests.swift */; };
+		061E268628B25AE2003A4F45 /* You_SearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061E268528B25AE2003A4F45 /* You_SearchUITestsLaunchTests.swift */; };
+		061E268C28B25AE2003A4F45 /* You Search Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 061E268B28B25AE2003A4F45 /* You Search Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		061E269128B25AE2003A4F45 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061E269028B25AE2003A4F45 /* SafariExtensionHandler.swift */; };
+		061E269328B25AE2003A4F45 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061E269228B25AE2003A4F45 /* SafariExtensionViewController.swift */; };
+		061E269628B25AE2003A4F45 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 061E269528B25AE2003A4F45 /* script.js */; };
+		061E269828B25AE2003A4F45 /* YouIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 061E269728B25AE2003A4F45 /* YouIcon.png */; };
+		061E269B28B25AE2003A4F45 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 061E269928B25AE2003A4F45 /* SafariExtensionViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		061E267628B25AE2003A4F45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 061E265128B25AE1003A4F45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 061E265828B25AE1003A4F45;
+			remoteInfo = "You Search";
+		};
+		061E268028B25AE2003A4F45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 061E265128B25AE1003A4F45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 061E265828B25AE1003A4F45;
+			remoteInfo = "You Search";
+		};
+		061E268D28B25AE2003A4F45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 061E265128B25AE1003A4F45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 061E268A28B25AE2003A4F45;
+			remoteInfo = "You Search Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		061E26A328B25AE2003A4F45 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				061E268C28B25AE2003A4F45 /* You Search Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		061E265928B25AE1003A4F45 /* You Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "You Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		061E265C28B25AE1003A4F45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		061E266028B25AE1003A4F45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		061E266228B25AE1003A4F45 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		061E266428B25AE1003A4F45 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		061E266628B25AE1003A4F45 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		061E266828B25AE1003A4F45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		061E266B28B25AE1003A4F45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		061E266D28B25AE2003A4F45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		061E266F28B25AE2003A4F45 /* You_Search.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = You_Search.entitlements; sourceTree = "<group>"; };
+		061E267028B25AE2003A4F45 /* You Search.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "You Search.entitlements"; sourceTree = "<group>"; };
+		061E267528B25AE2003A4F45 /* You SearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "You SearchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		061E267928B25AE2003A4F45 /* You_SearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = You_SearchTests.swift; sourceTree = "<group>"; };
+		061E267F28B25AE2003A4F45 /* You SearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "You SearchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		061E268328B25AE2003A4F45 /* You_SearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = You_SearchUITests.swift; sourceTree = "<group>"; };
+		061E268528B25AE2003A4F45 /* You_SearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = You_SearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		061E268B28B25AE2003A4F45 /* You Search Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "You Search Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		061E269028B25AE2003A4F45 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		061E269228B25AE2003A4F45 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		061E269528B25AE2003A4F45 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		061E269728B25AE2003A4F45 /* YouIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = YouIcon.png; sourceTree = "<group>"; };
+		061E269A28B25AE2003A4F45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		061E269C28B25AE2003A4F45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		061E269D28B25AE2003A4F45 /* You_Search_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = You_Search_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		061E265628B25AE1003A4F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		061E267228B25AE2003A4F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		061E267C28B25AE2003A4F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		061E268828B25AE2003A4F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		061E265028B25AE1003A4F45 = {
+			isa = PBXGroup;
+			children = (
+				061E265B28B25AE1003A4F45 /* You Search */,
+				061E267828B25AE2003A4F45 /* You SearchTests */,
+				061E268228B25AE2003A4F45 /* You SearchUITests */,
+				061E268F28B25AE2003A4F45 /* You Search Extension */,
+				061E265A28B25AE1003A4F45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		061E265A28B25AE1003A4F45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				061E265928B25AE1003A4F45 /* You Search.app */,
+				061E267528B25AE2003A4F45 /* You SearchTests.xctest */,
+				061E267F28B25AE2003A4F45 /* You SearchUITests.xctest */,
+				061E268B28B25AE2003A4F45 /* You Search Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		061E265B28B25AE1003A4F45 /* You Search */ = {
+			isa = PBXGroup;
+			children = (
+				061E265C28B25AE1003A4F45 /* AppDelegate.swift */,
+				061E266828B25AE1003A4F45 /* ViewController.swift */,
+				061E266A28B25AE1003A4F45 /* Main.storyboard */,
+				061E266D28B25AE2003A4F45 /* Assets.xcassets */,
+				061E266F28B25AE2003A4F45 /* You_Search.entitlements */,
+				061E267028B25AE2003A4F45 /* You Search.entitlements */,
+				061E265E28B25AE1003A4F45 /* Resources */,
+			);
+			path = "You Search";
+			sourceTree = "<group>";
+		};
+		061E265E28B25AE1003A4F45 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				061E265F28B25AE1003A4F45 /* Main.html */,
+				061E266228B25AE1003A4F45 /* Icon.png */,
+				061E266428B25AE1003A4F45 /* Style.css */,
+				061E266628B25AE1003A4F45 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		061E267828B25AE2003A4F45 /* You SearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				061E267928B25AE2003A4F45 /* You_SearchTests.swift */,
+			);
+			path = "You SearchTests";
+			sourceTree = "<group>";
+		};
+		061E268228B25AE2003A4F45 /* You SearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				061E268328B25AE2003A4F45 /* You_SearchUITests.swift */,
+				061E268528B25AE2003A4F45 /* You_SearchUITestsLaunchTests.swift */,
+			);
+			path = "You SearchUITests";
+			sourceTree = "<group>";
+		};
+		061E268F28B25AE2003A4F45 /* You Search Extension */ = {
+			isa = PBXGroup;
+			children = (
+				061E269028B25AE2003A4F45 /* SafariExtensionHandler.swift */,
+				061E269228B25AE2003A4F45 /* SafariExtensionViewController.swift */,
+				061E269928B25AE2003A4F45 /* SafariExtensionViewController.xib */,
+				061E269C28B25AE2003A4F45 /* Info.plist */,
+				061E269D28B25AE2003A4F45 /* You_Search_Extension.entitlements */,
+				061E269428B25AE2003A4F45 /* Resources */,
+			);
+			path = "You Search Extension";
+			sourceTree = "<group>";
+		};
+		061E269428B25AE2003A4F45 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				061E269528B25AE2003A4F45 /* script.js */,
+				061E269728B25AE2003A4F45 /* YouIcon.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		061E265828B25AE1003A4F45 /* You Search */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 061E26A428B25AE2003A4F45 /* Build configuration list for PBXNativeTarget "You Search" */;
+			buildPhases = (
+				061E265528B25AE1003A4F45 /* Sources */,
+				061E265628B25AE1003A4F45 /* Frameworks */,
+				061E265728B25AE1003A4F45 /* Resources */,
+				061E26A328B25AE2003A4F45 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				061E268E28B25AE2003A4F45 /* PBXTargetDependency */,
+			);
+			name = "You Search";
+			productName = "You Search";
+			productReference = 061E265928B25AE1003A4F45 /* You Search.app */;
+			productType = "com.apple.product-type.application";
+		};
+		061E267428B25AE2003A4F45 /* You SearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 061E26A728B25AE2003A4F45 /* Build configuration list for PBXNativeTarget "You SearchTests" */;
+			buildPhases = (
+				061E267128B25AE2003A4F45 /* Sources */,
+				061E267228B25AE2003A4F45 /* Frameworks */,
+				061E267328B25AE2003A4F45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				061E267728B25AE2003A4F45 /* PBXTargetDependency */,
+			);
+			name = "You SearchTests";
+			productName = "You SearchTests";
+			productReference = 061E267528B25AE2003A4F45 /* You SearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		061E267E28B25AE2003A4F45 /* You SearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 061E26AA28B25AE2003A4F45 /* Build configuration list for PBXNativeTarget "You SearchUITests" */;
+			buildPhases = (
+				061E267B28B25AE2003A4F45 /* Sources */,
+				061E267C28B25AE2003A4F45 /* Frameworks */,
+				061E267D28B25AE2003A4F45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				061E268128B25AE2003A4F45 /* PBXTargetDependency */,
+			);
+			name = "You SearchUITests";
+			productName = "You SearchUITests";
+			productReference = 061E267F28B25AE2003A4F45 /* You SearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		061E268A28B25AE2003A4F45 /* You Search Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 061E26A028B25AE2003A4F45 /* Build configuration list for PBXNativeTarget "You Search Extension" */;
+			buildPhases = (
+				061E268728B25AE2003A4F45 /* Sources */,
+				061E268828B25AE2003A4F45 /* Frameworks */,
+				061E268928B25AE2003A4F45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "You Search Extension";
+			productName = "You Search Extension";
+			productReference = 061E268B28B25AE2003A4F45 /* You Search Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		061E265128B25AE1003A4F45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					061E265828B25AE1003A4F45 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					061E267428B25AE2003A4F45 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 061E265828B25AE1003A4F45;
+					};
+					061E267E28B25AE2003A4F45 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 061E265828B25AE1003A4F45;
+					};
+					061E268A28B25AE2003A4F45 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 061E265428B25AE1003A4F45 /* Build configuration list for PBXProject "You Search" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 061E265028B25AE1003A4F45;
+			productRefGroup = 061E265A28B25AE1003A4F45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				061E265828B25AE1003A4F45 /* You Search */,
+				061E267428B25AE2003A4F45 /* You SearchTests */,
+				061E267E28B25AE2003A4F45 /* You SearchUITests */,
+				061E268A28B25AE2003A4F45 /* You Search Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		061E265728B25AE1003A4F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061E266328B25AE1003A4F45 /* Icon.png in Resources */,
+				061E266C28B25AE1003A4F45 /* Main.storyboard in Resources */,
+				061E266728B25AE1003A4F45 /* Script.js in Resources */,
+				061E266128B25AE1003A4F45 /* Main.html in Resources */,
+				061E266E28B25AE2003A4F45 /* Assets.xcassets in Resources */,
+				061E266528B25AE1003A4F45 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		061E267328B25AE2003A4F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		061E267D28B25AE2003A4F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		061E268928B25AE2003A4F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061E269B28B25AE2003A4F45 /* SafariExtensionViewController.xib in Resources */,
+				061E269828B25AE2003A4F45 /* YouIcon.png in Resources */,
+				061E269628B25AE2003A4F45 /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		061E265528B25AE1003A4F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061E266928B25AE1003A4F45 /* ViewController.swift in Sources */,
+				061E265D28B25AE1003A4F45 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		061E267128B25AE2003A4F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061E267A28B25AE2003A4F45 /* You_SearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		061E267B28B25AE2003A4F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061E268628B25AE2003A4F45 /* You_SearchUITestsLaunchTests.swift in Sources */,
+				061E268428B25AE2003A4F45 /* You_SearchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		061E268728B25AE2003A4F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061E269328B25AE2003A4F45 /* SafariExtensionViewController.swift in Sources */,
+				061E269128B25AE2003A4F45 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		061E267728B25AE2003A4F45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 061E265828B25AE1003A4F45 /* You Search */;
+			targetProxy = 061E267628B25AE2003A4F45 /* PBXContainerItemProxy */;
+		};
+		061E268128B25AE2003A4F45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 061E265828B25AE1003A4F45 /* You Search */;
+			targetProxy = 061E268028B25AE2003A4F45 /* PBXContainerItemProxy */;
+		};
+		061E268E28B25AE2003A4F45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 061E268A28B25AE2003A4F45 /* You Search Extension */;
+			targetProxy = 061E268D28B25AE2003A4F45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		061E265F28B25AE1003A4F45 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				061E266028B25AE1003A4F45 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		061E266A28B25AE1003A4F45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				061E266B28B25AE1003A4F45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		061E269928B25AE2003A4F45 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				061E269A28B25AE2003A4F45 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		061E269E28B25AE2003A4F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		061E269F28B25AE2003A4F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		061E26A128B25AE2003A4F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "You Search Extension/You_Search_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6SLD7YBJ9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "You Search Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "You Search Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "You.com.You-Search.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		061E26A228B25AE2003A4F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "You Search Extension/You_Search_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FP348PH4DW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "You Search Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "You Search Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "You.com.You-Search.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		061E26A528B25AE2003A4F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "You Search/You Search.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6SLD7YBJ9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "You Search";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "You.com.You-Search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		061E26A628B25AE2003A4F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "You Search/You Search.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FP348PH4DW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "You Search";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "You.com.You-Search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		061E26A828B25AE2003A4F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FP348PH4DW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "You.com.You-SearchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/You Search.app/Contents/MacOS/You Search";
+			};
+			name = Debug;
+		};
+		061E26A928B25AE2003A4F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FP348PH4DW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "You.com.You-SearchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/You Search.app/Contents/MacOS/You Search";
+			};
+			name = Release;
+		};
+		061E26AB28B25AE2003A4F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6SLD7YBJ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "You.com.You-SearchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "You Search";
+			};
+			name = Debug;
+		};
+		061E26AC28B25AE2003A4F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FP348PH4DW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "You.com.You-SearchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "You Search";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		061E265428B25AE1003A4F45 /* Build configuration list for PBXProject "You Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				061E269E28B25AE2003A4F45 /* Debug */,
+				061E269F28B25AE2003A4F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		061E26A028B25AE2003A4F45 /* Build configuration list for PBXNativeTarget "You Search Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				061E26A128B25AE2003A4F45 /* Debug */,
+				061E26A228B25AE2003A4F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		061E26A428B25AE2003A4F45 /* Build configuration list for PBXNativeTarget "You Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				061E26A528B25AE2003A4F45 /* Debug */,
+				061E26A628B25AE2003A4F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		061E26A728B25AE2003A4F45 /* Build configuration list for PBXNativeTarget "You SearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				061E26A828B25AE2003A4F45 /* Debug */,
+				061E26A928B25AE2003A4F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		061E26AA28B25AE2003A4F45 /* Build configuration list for PBXNativeTarget "You SearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				061E26AB28B25AE2003A4F45 /* Debug */,
+				061E26AC28B25AE2003A4F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 061E265128B25AE1003A4F45 /* Project object */;
+}
