@@ -14,18 +14,13 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c22-O7-iKe">
-            <rect key="frame" x="0.0" y="0.0" width="338" height="95"/>
+        <customView translatesAutoresizingMaskIntoConstraints="NO" id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="242" height="92"/>
             <subviews>
-                <button verticalHuggingPriority="500" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yEz-PX-TUB">
-                    <rect key="frame" x="0.0" y="-135" width="100" height="32"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="20" id="Wvn-nR-v3W"/>
-                    </constraints>
-                </button>
-                <button verticalHuggingPriority="500" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LSC-AC-1HI">
-                    <rect key="frame" x="17" y="56" width="272" height="36"/>
-                    <buttonCell key="cell" type="check" title="Replace Google Search with You Search" bezelStyle="regularSquare" imagePosition="left" inset="2" id="NPX-e3-eq0">
+                <button verticalHuggingPriority="500" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LSC-AC-1HI">
+                    <rect key="frame" x="34" y="45" width="173" height="36"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="check" title="Search with YOU.com" bezelStyle="regularSquare" imagePosition="left" inset="2" id="NPX-e3-eq0">
                         <behavior key="behavior" pushIn="YES" changeContents="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
                         <connections>
@@ -34,9 +29,9 @@
                     </buttonCell>
                 </button>
                 <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mUc-SS-gAT">
-                    <rect key="frame" x="44" y="12" width="216" height="32"/>
+                    <rect key="frame" x="13" y="13" width="216" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <buttonCell key="cell" type="push" title=" We love your feedback 💗" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="OoZ-wk-OAl">
+                    <buttonCell key="cell" type="push" title=" We love your feedback ❤️" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="OoZ-wk-OAl">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
@@ -45,14 +40,7 @@
                     </connections>
                 </button>
             </subviews>
-            <constraints>
-                <constraint firstAttribute="height" constant="70" id="3sZ-S5-qvf"/>
-                <constraint firstItem="LSC-AC-1HI" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="24" id="3wd-Gm-kPC"/>
-                <constraint firstAttribute="width" constant="350" id="Feg-ND-fSU"/>
-                <constraint firstItem="LSC-AC-1HI" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="20" symbolic="YES" id="I3F-3x-uww"/>
-                <constraint firstItem="yEz-PX-TUB" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="20" symbolic="YES" id="xd7-Rm-j0R"/>
-            </constraints>
-            <point key="canvasLocation" x="-309" y="184.5"/>
+            <point key="canvasLocation" x="-321" y="308"/>
         </customView>
     </objects>
 </document>

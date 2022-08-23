@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionPointIdentifier</key>
@@ -21,15 +23,15 @@
 		</dict>
 		<key>SFSafariWebsiteAccess</key>
 		<dict>
-			<key>Allowed Domains</key>
+			<key>Allowed Domains for Header Injection</key>
 			<array>
-				<string>www.google.com</string>
+				<string>www.you.com</string>
 			</array>
 			<key>Level</key>
-			<string>Some</string>
+			<string>All</string>
 		</dict>
 	</dict>
 	<key>NSHumanReadableDescription</key>
-	<string>You.com is an ad-free, privacy-focused, customized search engine. This extension offers replacing Google Search with You Search from Safari&apos;s address bar. You can still use Google search with our Bang (!g) feature.</string>
+	<string>YOU.com is a private search engine without ads that you can customize with 150+ apps. This extension allows you to set YOU.com the default search engine on the Safari address bar</string>
 </dict>
 </plist>

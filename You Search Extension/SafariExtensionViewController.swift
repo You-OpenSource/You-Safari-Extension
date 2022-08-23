@@ -11,6 +11,9 @@ class SafariExtensionViewController: SFSafariExtensionViewController {
     
     @IBOutlet weak var enableExtensionCheck: NSButton!
 
+    @IBAction func test(_ sender: Any) {
+    }
+    
     static let enableExtensionState = "off"
 
     override func viewDidLoad() {
@@ -29,7 +32,7 @@ class SafariExtensionViewController: SFSafariExtensionViewController {
 
     static let shared: SafariExtensionViewController = {
          let shared = SafariExtensionViewController()
-         shared.preferredContentSize = NSSize(width:305, height:100)
+         shared.preferredContentSize = NSSize(width:242, height:90)
          return shared
     }()
 

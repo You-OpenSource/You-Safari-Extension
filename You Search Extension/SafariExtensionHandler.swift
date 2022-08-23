@@ -8,18 +8,33 @@
 import SafariServices
 
 class SafariExtensionHandler: SFSafariExtensionHandler {
-    // Google on URL pattern on safari:  https://www.google.com/search?client=safari&rls=en&q=hello&ie=UTF-8&oe=UTF-8
-    var googleSafariURLPattern = "google.com/search?client"
-    var googleQueryParam = "q"
+
+    struct SearchEngine {
+        var name: String
+        var prefixUrl: String
+        var specialCode: String 
+        var queryParam: String
+    }
+    
+    // E.g. Google on URL pattern on safari:  https://www.google.com/search?client=safari&rls=en&q=hello&ie=UTF-8&oe=UTF-8
+    let safariSearchEngines: [SearchEngine] = [
+        SearchEngine(name: "Google", prefixUrl: "www.google.com/search?", specialCode: "client=safari&rls=en", queryParam: "q"),
+        SearchEngine(name: "Bing", prefixUrl: "www.bing.com/search?", specialCode: "form=APMCS1&PC=APMC", queryParam: "q"),
+        SearchEngine(name: "Yahoo", prefixUrl: "search.yahoo.com/search?", specialCode: "fr=aaplw", queryParam: "p"),
+        SearchEngine(name: "DuckDuckGo", prefixUrl: "duckduckgo.com/", specialCode: "t=osx", queryParam: "q"),
+        SearchEngine(name: "Ecosia", prefixUrl: "www.ecosia.org/search?", specialCode: "tts=st_asaf_macos", queryParam: "q"),
+    ]
+    
     var youSearchURLPattern = "https://you.com/search?q="
 
     func redirectUrl(url: URL) -> URL? {
-       let urlString = url.absoluteString
+        let urlString = url.absoluteString
 
-        if (urlString.contains(googleSafariURLPattern)),
-            let userQuery = URLComponents(string: urlString)?.percentEncodedQueryItems?.first(where: { $0.name ==  googleQueryParam })?.value {
-               return URL(string: youSearchURLPattern + userQuery)!
-           }
+        if let searchEngine = safariSearchEngines.first(where: { urlString.contains($0.prefixUrl) }),
+           urlString.contains(searchEngine.specialCode), // is the search made from the address address
+           let userQuery = URLComponents(string: urlString)?.percentEncodedQueryItems?.first(where: { $0.name ==  searchEngine.queryParam })?.value {
+              return URL(string: youSearchURLPattern + userQuery)!
+            }
         return nil
     }
     
