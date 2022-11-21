@@ -32,12 +32,14 @@
 		</dict>
 	</dict>
 	<key>NSHumanReadableDescription</key>
-	<string>YOU.com is a private search engine without ads that you can customize with 150+ apps. This extension allows you to set YOU.com the default search engine on the Safari address bar</string>
+	<string>When the extension is enabled on the Toolbar, it will redirect your searches from address bar to YOU.com. When it is disabled, searches will be redirected to your current search engine.</string>
 	<key>CFBundleVersion</key>
-	<string>1.1.0</string>
+	<string>1.1.2</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1.0</string>
+	<string>1.1.2</string>
 	<key>CFBundleName</key>
 	<string>YouSearchExtension</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 </dict>
 </plist>
