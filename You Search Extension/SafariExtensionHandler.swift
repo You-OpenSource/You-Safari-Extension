@@ -18,7 +18,7 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
     
     // E.g. Google on URL pattern on safari:  https://www.google.com/search?client=safari&rls=en&q=hello&ie=UTF-8&oe=UTF-8
     let safariSearchEngines: [SearchEngine] = [
-        SearchEngine(name: "Google", prefixUrl: "www.google.com/search?", specialCode: "client=safari", queryParam: "q"),
+        SearchEngine(name: "Google", prefixUrl: "www.google.com/search?", specialCode: "client=safari&rls=", queryParam: "q"),
         SearchEngine(name: "Bing", prefixUrl: "www.bing.com/search?", specialCode: "form=APMCS1&PC=APMC", queryParam: "q"),
         SearchEngine(name: "Yahoo", prefixUrl: "search.yahoo.com/search?", specialCode: "fr=aaplw", queryParam: "p"),
         SearchEngine(name: "DuckDuckGo", prefixUrl: "duckduckgo.com/", specialCode: "t=osx", queryParam: "q"),
