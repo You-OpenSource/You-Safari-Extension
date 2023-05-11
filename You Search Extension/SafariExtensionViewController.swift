@@ -39,7 +39,7 @@ class SafariExtensionViewController: SFSafariExtensionViewController {
     @IBAction func openUserFeedBack(_ sender: Any) {
         SFSafariApplication.getActiveWindow { window in
             window?.openTab(
-                with: URL(string: "https://form.asana.com/?k=tX8hVzLPkH3PG6TXv-A26g&d=1193569441872791")!,
+                with: URL(string: "https://yousearch.canny.io/")!,
                 makeActiveIfPossible: true
             )
         }
